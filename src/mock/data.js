@@ -11,47 +11,47 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Sulayman Ibrahim',
-  subtitle: 'JS Developer',
+  subtitle: 'and I am a self-taught Front End Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profilepic.jpg',
+  paragraphOne: 'I truly enjoy coding, I find it to be an amazing outlet for my creativity and passion for solving complex problems. I am a biochemistry graduate who has been in love with anything tech related ever since I was the size of watermelon.',
+  paragraphTwo: 'The industry is one of high complexity and fast changes. In order to excel in such industry I need to be constantly learning and adapting, whether that be from improving my fluency with any of the current languages I know, or learning a new language, library or framework and implementing the knowledge as soon as I can.',
+  paragraphThree: 'Having learnt and implemented HTML, CSS, JavaScript, Node.js, Gatsby.js and React.JS, I feel confident in my ability to build responsive, user-friendly websites and tackle problems associated with the process. As a result of my rigirous schedule in the last few months, I have been able to produce projects reflective of my ability and passion for web development. Please do find them below',
+  resume: 'https://bit.ly/3t5NPTL', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'gatsbyblog.png',
+    title: 'Gatsby Blog Site',
+    info: 'Here is an exciting project I was working with recently. A simple website design with a minimalist theme, featuring a blog section. ',
+    info2: 'The project features the usage of React.js, Gatsby.js, the Contentful CMS and hosting on Netlify. ',
+    url: 'https://gatsbyblogsite.com/',
+    repo: 'https://github.com/Soman95/gatsby-blog-site', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'YelpCamp.png',
+    title: 'Yelp Camp',
+    info: 'Created a yelp-like application from scratch. A website where users can create and review campgrounds. This project was created using JavaScript, Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.',
+    info2: 'Delopyed with Heroku',
+    url: 'https://glacial-tor-76055.herokuapp.com/',
+    repo: 'https://github.com/Soman95/YelpCamp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'TV Show Finder.png',
+    title: 'TV SHOW SEARCHER',
+    info: 'An app to help you search and find a TV series. API utilisation and async functions were core to the functionality of this. ',
+    info2: 'I found DOM manipulation to be especially useful for the "reset" feature when beginning a new search.',
+    url: 'https://codepen.io/soman95/full/jOMgKyZ',
+    repo: 'https://github.com/Soman95/TVShows', // if no repo, the button will not show up
   },
 ];
 
@@ -67,23 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/soman95',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sulaymanibrah/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Soman95',
     },
   ],
 };

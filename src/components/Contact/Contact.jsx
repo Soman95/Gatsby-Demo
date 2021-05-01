@@ -17,13 +17,15 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
+            <p>Mobile: 07939865429</p>
+            <p>Email: s.o.ibrahim95@hotmail.com</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/sulaymanibrah/'}
             >
-              {btn || "Let's Talk"}
+              {btn || "Let's connect!"}
             </a>
           </div>
         </Fade>

@@ -12,6 +12,8 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+        <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://ibb.co/BfHpwrk" />
         <title>{title || 'Sulayman Ibrahim'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Sulayman Portfolio'} />

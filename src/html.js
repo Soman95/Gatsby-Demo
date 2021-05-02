@@ -19,7 +19,8 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta property="og:image" content="https://www.applesfromny.com/wp-content/uploads/2020/05/Jonagold_NYAS-Apples2.png" />
+        <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+        <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://ibb.co/BfHpwrk" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>

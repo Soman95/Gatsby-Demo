@@ -53,6 +53,15 @@ export const projectsData = [
     url: 'https://codepen.io/soman95/full/jOMgKyZ',
     repo: 'https://github.com/Soman95/TVShows', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'pingpong.png',
+    title: 'Ping Pong Score Keeper',
+    info: 'A fun way of keeping track of scores for a two player ping pong game. ',
+    info2: 'This Javascript broswer game makes use of DOM manipulation and event listeners',
+    url: 'https://codepen.io/soman95/full/RwGmOPX',
+    repo: 'https://github.com/Soman95/PingPongScoreKeeper', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA

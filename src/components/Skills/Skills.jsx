@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
-import Col from 'react-bootstrap/Col'
+import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import skills from '../../style/sections/skills.css'
@@ -13,9 +12,9 @@ const Skills = () => {
             <Container>
                 <Title title="Skills" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
-                    <section className="skillsSection">
+                    <Row className="skillsSection">
 
-                        <div className="skillsContainer">
+                        <Col className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -24,9 +23,9 @@ const Skills = () => {
                                     <h3>HTML 5</h3>
                                 </div>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="skillsContainer">
+                        <Col className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -35,9 +34,9 @@ const Skills = () => {
                                     <h3>CSS 3</h3>
                                 </div>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div className="skillsContainer">
+                        <Col className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -46,8 +45,8 @@ const Skills = () => {
                                     <h3>JavaScript</h3>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </Col>
+                    </Row>
                 </Fade>
             </Container>
         </section>

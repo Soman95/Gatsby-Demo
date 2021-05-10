@@ -30,7 +30,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <h2 class="react-reveal section-title" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-719966688416854-2;">Skills</h2>
       <Footer />
     </PortfolioProvider>
   );

@@ -46,6 +46,28 @@ const Skills = () => {
                                 </div>
                             </div>
                         </Col>
+
+                        <Col className="skillsContainer">
+                            <div className="skillsBox">
+                                <div className="skillsTitle">
+                                    <div className="skillsImg">
+                                        <img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png" className="skillsIcons"></img>
+                                    </div>
+                                    <h3>Node.js</h3>
+                                </div>
+                            </div>
+                        </Col>
+
+                        <Col className="skillsContainer">
+                            <div className="skillsBox">
+                                <div className="skillsTitle">
+                                    <div className="skillsImg">
+                                        <img src="https://cdn.freebiesupply.com/logos/large/2x/react-logo-png-transparent.png" className="skillsIcons"></img>
+                                    </div>
+                                    <h3>React.js</h3>
+                                </div>
+                            </div>
+                        </Col>
                     </Row>
                 </Fade>
             </Container>

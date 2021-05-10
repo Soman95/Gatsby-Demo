@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col'
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import skills from '../../style/sections/skills.css'
@@ -12,39 +13,39 @@ const Skills = () => {
             <Container>
                 <Title title="Skills" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
-                    <container fluid className="skillsSection">
+                    <container className="skillsSection">
 
                         <row className="skillsContainer">
-                            <col className="skillsBox">
+                            <Col className="skillsBox">
                                 <div className="skillsTitle">
-                                    <div className="skillsImg">
+                                    <col className="skillsImg">
                                         <img src="https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png" className="skillsIcons"></img>
-                                    </div>
+                                    </col>
                                     <h3>HTML 5</h3>
                                 </div>
-                            </col>
+                            </Col>
                         </row>
 
                         <row className="skillsContainer">
-                            <col className="skillsBox">
+                            <Col className="skillsBox">
                                 <div className="skillsTitle">
-                                    <div className="skillsImg">
+                                    <col className="skillsImg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" className="skillsIcons"></img>
-                                    </div>
+                                    </col>
                                     <h3>CSS 3</h3>
                                 </div>
-                            </col>
+                            </Col>
                         </row>
 
                         <row className="skillsContainer">
-                            <col className="skillsBox">
+                            <Col className="skillsBox">
                                 <div className="skillsTitle">
-                                    <div className="skillsImg">
+                                    <col className="skillsImg">
                                         <img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" className="skillsIcons"></img>
-                                    </div>
+                                    </col>
                                     <h3>JavaScript</h3>
                                 </div>
-                            </col>
+                            </Col>
                         </row>
                     </container>
                 </Fade>

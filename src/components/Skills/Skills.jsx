@@ -15,36 +15,36 @@ const Skills = () => {
                     <container fluid className="skillsSection">
 
                         <row className="skillsContainer">
-                            <div className="skillsBox">
+                            <col className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
                                         <img src="https://cdn.freebiesupply.com/logos/large/2x/html-5-logo-png-transparent.png" className="skillsIcons"></img>
                                     </div>
                                     <h3>HTML 5</h3>
                                 </div>
-                            </div>
+                            </col>
                         </row>
 
                         <row className="skillsContainer">
-                            <div className="skillsBox">
+                            <col className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" className="skillsIcons"></img>
                                     </div>
                                     <h3>CSS 3</h3>
                                 </div>
-                            </div>
+                            </col>
                         </row>
 
                         <row className="skillsContainer">
-                            <div className="skillsBox">
+                            <col className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
                                         <img src="https://icon-library.net/images/javascript-icon-png/javascript-icon-png-23.jpg" className="skillsIcons"></img>
                                     </div>
                                     <h3>JavaScript</h3>
                                 </div>
-                            </div>
+                            </col>
                         </row>
                     </container>
                 </Fade>

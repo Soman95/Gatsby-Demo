@@ -9,12 +9,12 @@ const Skills = () => {
 
     return (
         <section id="skills">
-            <Container fluid>
+            <Container>
                 <Title title="Skills" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
-                    <row className="skillsSection">
+                    <container fluid className="skillsSection">
 
-                        <col className="skillsContainer">
+                        <row className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -23,9 +23,9 @@ const Skills = () => {
                                     <h3>HTML 5</h3>
                                 </div>
                             </div>
-                        </col>
+                        </row>
 
-                        <col className="skillsContainer">
+                        <row className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -34,9 +34,9 @@ const Skills = () => {
                                     <h3>CSS 3</h3>
                                 </div>
                             </div>
-                        </col>
+                        </row>
 
-                        <col className="skillsContainer">
+                        <row className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -45,8 +45,8 @@ const Skills = () => {
                                     <h3>JavaScript</h3>
                                 </div>
                             </div>
-                        </col>
-                    </row>
+                        </row>
+                    </container>
                 </Fade>
             </Container>
         </section>

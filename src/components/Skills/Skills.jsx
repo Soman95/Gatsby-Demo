@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import skills from '../../style/sections/skills'
+import skills from '../../style/sections/skills.css'
 
 const Skills = () => {
 

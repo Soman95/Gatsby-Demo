@@ -66,8 +66,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'musuemcandy.png',
     title: 'Musuem of Candy',
-    info: 'This static web page was created entirely with HTML and CSS (Bootstrap). A candy themed web page for a musuem of candy',
-    info2: 'Care was given to create the aesthetic but to keep the element of responsiveness',
+    info: 'This static web page was created entirely with HTML and CSS (Bootstrap). A candy themed web page for a musuem of candy.',
+    info2: 'Care was given to create the aesthetic but to keep the element of responsiveness.',
     url: 'https://codepen.io/soman95/full/vYXgjEL',
     repo: 'https://github.com/Soman95/Museum-of-Candy', // if no repo, the button will not show up
   },

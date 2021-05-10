@@ -30,6 +30,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <h2>Skills</h2>
       <Footer />
     </PortfolioProvider>
   );

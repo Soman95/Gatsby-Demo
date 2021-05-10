@@ -13,9 +13,6 @@ const Skills = () => {
                 <Title title="Skills" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
                     <section className="skillsSection">
-                        <div className="skillsHeader">
-                            <h1>Skills</h1>
-                        </div>
                         <div className="skillsContainer">
                             <div className="skillsBox">
                                 <div className="skillsTitle">

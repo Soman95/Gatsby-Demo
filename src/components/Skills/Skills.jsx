@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col'
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -15,7 +15,7 @@ const Skills = () => {
                 <Fade bottom duration={1000} delay={800} distance="30px">
                     <container className="skillsSection">
 
-                        <row className="skillsContainer">
+                        <Row className="skillsContainer">
                             <Col className="skillsBox">
                                 <div className="skillsTitle">
                                     <col className="skillsImg">
@@ -24,9 +24,9 @@ const Skills = () => {
                                     <h3>HTML 5</h3>
                                 </div>
                             </Col>
-                        </row>
+                        </Row>
 
-                        <row className="skillsContainer">
+                        <Row className="skillsContainer">
                             <Col className="skillsBox">
                                 <div className="skillsTitle">
                                     <col className="skillsImg">
@@ -35,9 +35,9 @@ const Skills = () => {
                                     <h3>CSS 3</h3>
                                 </div>
                             </Col>
-                        </row>
+                        </Row>
 
-                        <row className="skillsContainer">
+                        <Row className="skillsContainer">
                             <Col className="skillsBox">
                                 <div className="skillsTitle">
                                     <col className="skillsImg">
@@ -46,7 +46,7 @@ const Skills = () => {
                                     <h3>JavaScript</h3>
                                 </div>
                             </Col>
-                        </row>
+                        </Row>
                     </container>
                 </Fade>
             </Container>

@@ -30,15 +30,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <h2 class="react-reveal section-title" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-994719943610863-2;">Skills</h2>
-      <div class="main">
-        <div class="skill">
-          <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png" />
-          <h4>Javascript</h4>
-          <p>Experience:</p>
-          <p>6 Months +</p>
-        </div>
-      </div>
       <Footer />
     </PortfolioProvider>
   );

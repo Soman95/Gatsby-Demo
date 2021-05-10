@@ -3,6 +3,7 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import Skills from './Skills/Skills';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
@@ -30,6 +31,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Skills />
       <Footer />
     </PortfolioProvider>
   );

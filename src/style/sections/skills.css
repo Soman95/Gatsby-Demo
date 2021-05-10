@@ -1,0 +1,133 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background: #ccc;
+}
+
+.skillsSection{
+padding-top: 20px;
+}
+
+.skillsHeader{
+text-align: center;
+color: #fff;
+padding: 1rem;
+position: relative;
+}
+
+.skillsHeader:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 4px;
+background-color: #2ecc71;
+border-radius: 2px;
+}
+
+.skillsContainer{
+display: grid;
+grid-tempLate-columns: repeat(5, 1fr);
+justify-content:center;
+align-items:center;
+text-align: center;
+grid-gap:1rem;
+padding: 1rem 80px;
+font-size: 1.2rem;
+}
+.skillsBox{
+padding: 1rem;
+color: #000;
+cursor:pointer;
+}
+.skillsBox:hover > .skillsTitle::after, 
+.skillsBox:hover > .skillsTitle::before{
+width: 30px;
+}
+.skillsBox:hover .skillsImg{
+transform: translateX(-20px);
+}
+
+.skillsTitle{
+display:flex;
+flex-direction: column;
+align-items:center;
+padding: 0.5rem;
+margin-bottom: 0.5rem;
+position: relative;
+}
+
+.skillsTitle:after{
+content: '';
+position:absolute;
+bottom: 0;
+right: 50%;
+width:20px;
+height:4px;
+border-radius: 2px 0 0 2px;
+background-color: #2ecc71;
+transition: .5s;
+}
+
+.skillsTitle:before{
+content: '';
+position:absolute;
+bottom: 0;
+left: 50%;
+width:100px;
+height:4px;
+border-radius: 0 2px 2px 0;
+background-color: #2ecc71;
+}
+
+.skillsIcons{
+width:50px;
+z-index:2;
+}
+
+.skillsImg{
+width:90px;
+height:90px;
+position: relative;
+border-radius: 45px;
+background-color: #fff;
+display:flex;
+justify-content:center;
+align-items:center;
+transition: .5s;
+}
+
+.skillsImg:after{
+content: '';
+position:absolute;
+top:0;
+left: 0;
+width:50%;
+height:90px;
+background: rgba(100, 100, 100, 0.5);
+border-radius: 45px 0 0 45px;
+}
+.skillsTitle h3{
+color: #333;
+margin-top: 0.5rem;
+}
+@media screen and (max-width:990px){
+ .skills-container{
+ grid-tempLate-columns: repeat(2, 1fr);
+ padding: 2rem 50px;
+ }
+}
+
+@media screen and (max-width:650px){
+ .skills-container{
+ grid-tempLate-columns:2fr;
+ padding: 2rem 50px;
+ }
+}

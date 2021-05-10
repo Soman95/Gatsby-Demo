@@ -86,7 +86,7 @@ const Skills = () => {
                                     <div className="skillsImg">
                                         <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-256.png" className="skillsIcons"></img>
                                     </div>
-                                    <h3>Saas</h3>
+                                    <h3>Sass</h3>
                                 </div>
                             </div>
                         </Col>

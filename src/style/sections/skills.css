@@ -11,26 +11,6 @@ background: #ccc;
 
 .skillsSection{
 padding-top: 20px;
-display: inline;
-}
-
-.skillsHeader{
-text-align: center;
-color: #fff;
-padding: 1rem;
-position: relative;
-}
-
-.skillsHeader:after{
-content: '';
-position: absolute;
-bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-width: 100px;
-height: 4px;
-background-color: #2ecc71;
-border-radius: 2px;
 }
 
 .skillsContainer{
@@ -47,6 +27,7 @@ font-size: 1.2rem;
 padding: 1rem;
 color: #000;
 cursor:pointer;
+display: inline-block;
 }
 .skillsBox:hover > .skillsTitle::after, 
 .skillsBox:hover > .skillsTitle::before{

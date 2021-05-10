@@ -68,6 +68,28 @@ const Skills = () => {
                                 </div>
                             </div>
                         </Col>
+
+                        <Col className="skillsContainer">
+                            <div className="skillsBox">
+                                <div className="skillsTitle">
+                                    <div className="skillsImg">
+                                        <img src="https://cdn.icon-icons.com/icons2/2415/PNG/128/mongodb_original_wordmark_logo_icon_146425.png" className="skillsIcons"></img>
+                                    </div>
+                                    <h3>MongoDB</h3>
+                                </div>
+                            </div>
+                        </Col>
+
+                        <Col className="skillsContainer">
+                            <div className="skillsBox">
+                                <div className="skillsTitle">
+                                    <div className="skillsImg">
+                                        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-256.png" className="skillsIcons"></img>
+                                    </div>
+                                    <h3>Saas</h3>
+                                </div>
+                            </div>
+                        </Col>
                     </Row>
                 </Fade>
             </Container>

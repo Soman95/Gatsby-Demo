@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'corona.png',
     title: 'COVID Figures Tracker',
     info: 'An app designed to track figures related to COVID-19 utilising data provided by an external API. React.js and a Material UI were the main engines for this useful project.',
-    info2: 'Styling was meticulously organised via modules in order to keep them from overlapping. This project is hosted via netlify.',
+    info2: 'Styling was meticulously organised via modules in order to keep them from overlapping. This project is hosted via Netlify.',
     url: 'https://solotech95-coronatracker.netlify.app/',
     repo: 'https://github.com/Soman95/coronaTracker', // if no repo, the button will not show up
   },

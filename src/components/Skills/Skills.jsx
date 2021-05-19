@@ -51,7 +51,7 @@ const Skills = () => {
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
-                                        <img src="http://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png" className="skillsIcons"></img>
+                                        <img src="https://e7.pngegg.com/pngimages/416/280/png-clipart-node-js-express-js-javascript-redis-mean-node-js-angle-text-thumbnail.png" className="skillsIcons"></img>
                                     </div>
                                     <h3>Node.js</h3>
                                 </div>

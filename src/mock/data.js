@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'corona.png',
+    title: 'COVID Figures Tracker',
+    info: 'An app designed to track figures related to COVID-19 utilising data provided by an external API. React.js and a Material UI were the main engines for this useful project.',
+    info2: 'Styling was meticulously organised via modules in order to keep them from overlapping. This project is hosted via netlify.',
+    url: 'https://solotech95-coronatracker.netlify.app/',
+    repo: 'https://github.com/Soman95/coronaTracker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'gatsbyblog.png',
     title: 'Gatsby Blog Site',
     info: 'Here is an exciting project I was working with recently. A simple website design with a minimalist theme, featuring a blog section. ',

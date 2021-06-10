@@ -73,7 +73,7 @@ const Skills = () => {
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
-                                        <img src="https://cdn.icon-icons.com/icons2/2415/PNG/128/mongodb_original_wordmark_logo_icon_146425.png" className="skillsIcons"></img>
+                                        <img src="https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png" className="skillsIcons"></img>
                                     </div>
                                     <h3>MongoDB</h3>
                                 </div>

@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profilepic.jpg',
+  img: 'profilepic2.jpg',
   paragraphOne: 'I truly enjoy coding, I find it to be an amazing outlet for my creativity and passion for solving complex problems. I am a biochemistry graduate who has been in love with anything tech related ever since I was the size of watermelon.',
   paragraphTwo: 'The industry is one of high complexity and fast changes. In order to excel in such industry I need to be constantly learning and adapting, whether that be from improving my fluency with any of the current languages I know, or learning a new language, library or framework and implementing the knowledge as soon as I can.',
   paragraphThree: 'Having learnt and implemented HTML, CSS, JavaScript, Node.js, Gatsby.js and React.JS, I feel confident in my ability to build responsive, user-friendly websites and tackle problems associated with the process. As a result of my rigirous schedule in the last few months, I have been able to produce projects reflective of my ability and passion for web development. Please do find them below',

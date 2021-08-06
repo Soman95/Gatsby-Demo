@@ -40,7 +40,7 @@ const Skills = () => {
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
-                                        <img src="Icons/javascript.png" className="skillsIcons"></img>
+                                        <img src="/icons/javascript.png" className="skillsIcons"></img>
                                     </div>
                                     <h3>JavaScript</h3>
                                 </div>

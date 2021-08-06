@@ -40,7 +40,7 @@ const Skills = () => {
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
-                                        <img src="/icons/javascript.png" className="skillsIcons"></img>
+                                        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" className="skillsIcons"></img>
                                     </div>
                                     <h3>JavaScript</h3>
                                 </div>

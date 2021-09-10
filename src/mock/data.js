@@ -64,6 +64,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'TodoList.png',
+    title: 'Todo List App',
+    info: "Here's a simplistic todo app that will help you keep track of tasks you need to do. This app relies heavily upon React.js, utilising hooks, states and functional components.",
+    info2: 'Styling was kept simple and clean. By leveraging and managing state the app remembers your todo list even after you refresh the page',
+    url: 'https://todolist-soman95.netlify.app/',
+    repo: 'https://github.com/Soman95/TodoList', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'pingpong.png',
     title: 'Ping Pong Score Keeper',
     info: 'A fun way of keeping track of scores for a two player ping pong game. ',

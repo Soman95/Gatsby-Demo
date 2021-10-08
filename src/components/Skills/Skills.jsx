@@ -47,7 +47,10 @@ const Skills = () => {
                             </div>
                         </Col>
 
-                        <Col className="skillsContainer">
+                    </Row>
+
+                    <Row className="skillsSection justify-content-md-start">
+                        <Col className="skillsContainer" md="4">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -58,7 +61,7 @@ const Skills = () => {
                             </div>
                         </Col>
 
-                        <Col className="skillsContainer">
+                        <Col className="skillsContainer" md="4">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -69,7 +72,10 @@ const Skills = () => {
                             </div>
                         </Col>
 
-                        <Col className="skillsContainer">
+                    </Row>
+
+                    <Row className="skillsSection justify-content-md-start">
+                        <Col className="skillsContainer" md="4">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">
@@ -80,7 +86,7 @@ const Skills = () => {
                             </div>
                         </Col>
 
-                        <Col className="skillsContainer">
+                        <Col className="skillsContainer" md="4">
                             <div className="skillsBox">
                                 <div className="skillsTitle">
                                     <div className="skillsImg">

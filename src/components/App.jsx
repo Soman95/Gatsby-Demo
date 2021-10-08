@@ -28,10 +28,10 @@ function App() {
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
-      <About />
       <Projects />
-      <Contact />
+      <About />
       <Skills />
+      <Contact />
       <Footer />
     </PortfolioProvider>
   );

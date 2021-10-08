@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $primary-color;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -49,14 +49,12 @@
 
   .hero-cta {
     display: flex;
-
     @include respond(tab-port) {
       justify-content: center;
     }
 
     & a {
       font-size: 2.4rem;
-
       @include respond(phone) {
         font-size: 2rem;
       }

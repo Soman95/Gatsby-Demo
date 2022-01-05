@@ -73,21 +73,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'musuemcandy.png',
-    title: 'Musuem of Candy',
-    info: 'This static web page was created entirely with HTML and CSS (Bootstrap). A candy themed web page for a musuem of candy.',
-    info2: 'Care was given to create the aesthetic but to keep the element of responsiveness.',
-    url: 'https://codepen.io/soman95/full/vYXgjEL',
-    repo: 'https://github.com/Soman95/Museum-of-Candy', // if no repo, the button will not show up
+    img: 'cryptoapp.png',
+    title: 'Crypto Watch',
+    info: 'Here we have an easy on the eye app that is designed to help you keep track of prices and other info of crypto-currencies.',
+    info2: 'A React heavy project that makes the most of the useEffect hook.',
+    url: 'https://somancryptowatch.netlify.app',
+    repo: 'https://github.com/Soman95/cryptowatch', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'portfoliov1.png',
-    title: 'Portfolio Version 1',
-    info: 'Here is my previous version of my portfolio. Despite its functionality and effectiveness, the web page did not incorporate UX/UI principles properly. ',
-    info2: 'I managed to manipulate CSS enough to create a typewriter effect for the page intro. Favicons were sourced from fontawesome.',
-    url: 'https://sulaymanibrahim.com/',
-    repo: 'https://github.com/Soman95/portfoliov1', // if no repo, the button will not show up
+    img: 'recipeapp.png',
+    title: 'Reci-app',
+    info: 'Find your favourite recipe and other relevant info with this superb React based App.',
+    info2: 'Through state manipulation and API utilisation, this App provides a pleasant experience for anyone looking for a good recipe to follow.',
+    url: 'https://recipe-app-solo.netlify.app',
+    repo: 'https://github.com/Soman95/recipeapp', // if no repo, the button will not show up
   },
 ];
 

@@ -41,6 +41,7 @@
   }
 
   &.know{
+    -webkit-text-fill-color: whitesmoke;
     @include respond(phone) {
     background-color: rgb(223, 223, 223);
     border: 2px solid $secondary-color;

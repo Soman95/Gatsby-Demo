@@ -51,6 +51,7 @@ a:hover {
   }
 
   &.name{
+    -webkit-text-fill-color: whitesmoke;
      @include respond(phone) {
     -webkit-text-fill-color: whitesmoke;
   }

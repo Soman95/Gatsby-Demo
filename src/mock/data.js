@@ -46,12 +46,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'TV Show Finder.png',
-    title: 'TV SHOW SEARCHER',
-    info: 'An app to help you search and find a TV series. API utilisation and async functions were core to the functionality of this. ',
-    info2: 'I found DOM manipulation to be especially useful for the "reset" feature when beginning a new search.',
-    url: 'https://codepen.io/soman95/full/jOMgKyZ',
-    repo: 'https://github.com/Soman95/TVShows', // if no repo, the button will not show up
+    img: 'rocket.png',
+    title: "'Rocket' React Demo Site",
+    info: 'By leveraging Material UI, an effective React Framework, I was able to create an aesthetic React-based home page.',
+    info2: 'It features the visually appealing icons from Material UI, predominantly laid out in Grid format, to improve UI/UX.',
+    url: 'https://solo-reactdemosite.netlify.app/',
+    repo: 'https://github.com/Soman95/rocketReactDemo', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

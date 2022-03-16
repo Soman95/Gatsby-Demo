@@ -96,7 +96,7 @@ export const aboutData = {
   paragraphOne: 'I am a passionate web developer who has experience and is proficient in HTML, CSS, JavaScript, Node.js, and React.JS. I pride myself in being able to deliver quality work and in an efficient manner. Marking my transition into the tech industry in 2020, I have thouroughly enjoyed the journey and can truly say I have found my passion.',
   paragraphTwo: 'I feel confident in my ability to build responsive, user-friendly websites and tackle problems associated with the process. As a result of my continous learning & development, alongside challenging myself consistently, I have been able to produce projects reflective of my ability, for both myself and clients.',
   paragraphThree: '',
-  resume: 'https://shorturl.at/nwUW7', // if no resume, the button will not show up
+  resume: 'https://bit.ly/3KQpOtm', // if no resume, the button will not show up
 };
 
 // CONTACT DATA
